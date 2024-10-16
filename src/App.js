@@ -1,22 +1,22 @@
-import './App.css';
-import Button from "./components/Button/Button";
 
+import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+import { Register } from './pages/register/Register';
+import { Login } from './pages/login/Login';
 function App() {
+
   return (
     <>
-      <div className="Cadastro">
-        <div className="lado-esquerdo">
-        </div>
-        <div className="lado-direito">
-          <form>
-            <label>USUARIO</label>
-            <input type="text" />
-            <label>SENHA</label>
-            <input type="password" />
-            <Button text='Entrar' type='submite'/>
-          </form>
-        </div>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </>
   );
 }

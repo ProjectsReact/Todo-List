@@ -1,0 +1,21 @@
+.button-form {
+    width: 377px;
+    height: 50px;
+    position: absolute;
+    top: 596px;
+    left: 896px;
+    gap: 0;
+    opacity: 0;
+    background-color: #1E2C47;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+/* Se você quiser tornar o botão visível ao passar o mouse, você pode adicionar um efeito hover */
+.button-form:hover {
+    opacity: 1; /* Torna o botão visível ao passar o mouse */
+}

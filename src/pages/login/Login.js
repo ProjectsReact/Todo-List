@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Register.css';
+import './Login.css';
 import { Header } from '../../components/header/Header';
 
-export function Register() {
+export function Login() {
 
   return (
     <>
