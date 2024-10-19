@@ -1,0 +1,13 @@
+.logo-content {
+    width: 645px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-content h1 {
+    color: white;
+    text-decoration: underline;
+}

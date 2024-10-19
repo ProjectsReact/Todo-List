@@ -2,15 +2,12 @@ import "./Button.css";
 
 const Button = ({ text, onClick, ...props }) => {
   return (
-    <main>
+    <>
+      <button className='button-form' type={props.type} onClick={(event) => 
+        {event.preventDefault(); 
 
-      <div>
-        <button className='button-form' type={props.type} onClick={(event) => 
-          {event.preventDefault(); 
-
-          onClick()}}>{text}</button>
-      </div>
-    </main>
+        onClick()}}>{text}</button>
+    </>
   );
 };
 

@@ -1,0 +1,27 @@
+label {
+    color: #FDB600;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+input {
+    background-color: #304979;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #A8B2D1;
+}
+
+.error {
+  background-color: #f0a2a2; /* Fundo vermelho claro para indicar erro */
+}
